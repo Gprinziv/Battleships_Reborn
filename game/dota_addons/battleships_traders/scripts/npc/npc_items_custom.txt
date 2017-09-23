@@ -11149,7 +11149,7 @@
 		"ID"                            "1305"
 		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"BaseClass"                     "item_datadriven"
-		"Model"								"models/props_gameplay/divine_rapier.vmdl"
+		"Model"							"models/props_gameplay/divine_rapier.vmdl"
 		"AbilityTextureName"			"item_light_ult_bow"
 		
 		"AbilityCastRange"              "0"
@@ -11173,9 +11173,9 @@
 			
 			"item_light_ult_bow_shooting"
 			{
-				"Attributes" "MODIFIER_ATTRIBUTE_MULTIPLE"
+				"Attributes" 		"MODIFIER_ATTRIBUTE_MULTIPLE"
 				"ThinkInterval"		"%fire_rate"
-				"Passive"	 "1"
+				"Passive"	 		"1"
 				"OnIntervalThink"
 				{
 					"RunScript"
@@ -11187,19 +11187,19 @@
 					{
 						"Target"
 						{
-							"Center" "CASTER"
-							"Radius" "1000"
-							"Teams" "DOTA_UNIT_TARGET_TEAM_ENEMY"
-							"Types" "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING | DOTA_UNIT_TARGET_HERO"
-							"flags" "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE"
-							"MaxTargets" "1"
-							"Random" "1"
+							"Center" 		"CASTER"
+							"Radius" 		"1000"
+							"Teams" 		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+							"Types" 		"DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING | DOTA_UNIT_TARGET_HERO"
+							"flags" 		"DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE"
+							"MaxTargets" 	"1"
+							"Random" 		"1"
 						}
-												"ProvidesVision" "1"
-						"VisionRadius" "800"
-						"MoveSpeed" "800"
-						"Dodgeable" "1" 
-						"EffectName"    "particles/basic_projectile/pink_ult_projectile.vpcf" 
+						"ProvidesVision" 	"1"
+						"VisionRadius" 		"800"
+						"MoveSpeed" 		"800"
+						"Dodgeable" 		"1" 
+						"EffectName"   		"particles/basic_projectile/pink_ult_projectile.vpcf" 
 					}
 				}
 			}
